@@ -25,7 +25,7 @@
 
 ###
 
-<p align="left">TECH STACK</p>
+<p align="left"><strong>TECH STACK</strong></p>
 
 ###
 
@@ -63,7 +63,7 @@
 
 ###
 
-<p align="left">Connect With Me</p>
+<p align="left"><strong>Connect With Me</strong></p>
 
 ###
 
@@ -84,7 +84,7 @@
 
 ###
 
-<p align="left">Fun Games !!!</p>
+<p align="left"><strong>Fun Games !!!</strong></p>
 
 ###
 
