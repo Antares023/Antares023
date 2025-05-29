@@ -78,6 +78,12 @@
 
 ###
 
+<p align="left">Fun Games !!!</p>
+
+###
+
+<br clear="both">
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Antares023/Antares023/output/pacman-contribution-graph-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Antares023/Antares023/output/pacman-contribution-graph.svg">
