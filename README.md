@@ -21,9 +21,11 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Antares023&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=radical&hide_border=false" height="150" alt="languages graph"  />
 </div>
 
+***
+
 ###
 
-<p align="left">TECH STACK</p>
+<p align="left"><strong>TECH STACK</strong></p>
 
 ###
 
@@ -57,9 +59,11 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg" height="40" alt="arduino logo"  />
 </div>
 
+***
+
 ###
 
-<p align="left">Connect With Me</p>
+<p align="left"><strong>Connect With Me</strong></p>
 
 ###
 
@@ -76,9 +80,11 @@
   <img src="https://img.shields.io/static/v1?message=Whatsapp&logo=whatsapp&label=&color=25D366&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="whatsapp logo"  />
 </div>
 
+***
+
 ###
 
-<p align="left">Fun Games !!!</p>
+<p align="left"><strong>Fun Games !!!</strong></p>
 
 ###
 
@@ -86,10 +92,4 @@
 
 ###
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Antares023/Antares023/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Antares023/Antares023/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/Antares023/Antares023/output/pacman-contribution-graph.svg">
-</picture>
-
-###
+***
