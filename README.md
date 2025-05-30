@@ -1,6 +1,12 @@
-<h2 align="left">Hello 👋! My name is Muhammad Ilham Ramdhani and I'm a student at University of Muhammadiyah Cirebon, Informatics Egineering..</h2>
+<div align="center">
+  <img height="150" src="img/github-header-image.png"  />
+</div>
 
 ###
+
+<!-- <h2 align="left">Hello 👋! My name is Muhammad Ilham Ramdhani</h2>
+
+### -->
 
 <br clear="both">
 
@@ -9,6 +15,7 @@
 </div>
 
 ###
+
 
 <div align="center">
   <img src="https://profile-counter.glitch.me/Antares023/count.svg?"  />
@@ -25,7 +32,7 @@
 
 ###
 
-<p align="left"><strong>TECH STACK</strong></p>
+<p align="left"><strong>💻 Tech Stack</strong></p>
 
 ###
 
@@ -63,7 +70,7 @@
 
 ###
 
-<p align="left"><strong>Connect With Me</strong></p>
+<p align="left"><strong>🌐 Socials</strong></p>
 
 ###
 
@@ -84,7 +91,7 @@
 
 ###
 
-<p align="left"><strong>Fun Games !!!</strong></p>
+<p align="left"><strong>🎮 Fun Games !!!</strong></p>
 
 ###
 
