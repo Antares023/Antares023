@@ -1,12 +1,12 @@
-<div align="center">
+<!-- <div align="center">
   <img height="150" src="img/github-header-image.png"  />
 </div>
 
-###
-
-<!-- <h2 align="left">Hello 👋! My name is Muhammad Ilham Ramdhani</h2>
-
 ### -->
+
+<h2 align="left">Hello 👋! My name is Muhammad Ilham Ramdhani</h2>
+
+###
 
 <br clear="both">
 
