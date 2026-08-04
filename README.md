@@ -17,22 +17,6 @@
 <br/>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Antares023/Antares023/output/snake.svg" alt="Snake animation" />
-</div>
-
-<br/>
-
-<div align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Antares023/Antares023/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Antares023/Antares023/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/Antares023/Antares023/output/pacman-contribution-graph.svg">
-</picture>
-</div>
-
-<br/>
-
-<div align="center">
 <img width="100%" src="https://raw.githubusercontent.com/Antares023/Antares023/main/header.svg" />
 <br/>
 
