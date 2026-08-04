@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="260" height="78" viewBox="0 0 260 78" role="img" aria-label="DISCORD">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"   stop-color="#0b0b0d"/>
+      <stop offset="55%"  stop-color="#111014"/>
+      <stop offset="100%" stop-color="#1a0d0d"/>
+    </linearGradient>
+
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#00d2ff"/>
+      <stop offset="50%"  stop-color="#5865F2"/>
+      <stop offset="100%" stop-color="#00d2ff"/>
+    </linearGradient>
+
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="2.6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="1.1"/>
+    </filter>
+
+    <clipPath id="clip">
+      <rect x="1.5" y="1.5" width="257" height="75" rx="12"/>
+    </clipPath>
+
+    <pattern id="grid" width="13" height="13" patternUnits="userSpaceOnUse">
+      <path d="M13 0H0V13" fill="none" stroke="#5865F2" stroke-width="0.4" opacity="0.055"/>
+    </pattern>
+
+    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#5865F2" stop-opacity="0"/>
+      <stop offset="45%"  stop-color="#5865F2" stop-opacity="0.16"/>
+      <stop offset="55%"  stop-color="#fff"   stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#5865F2" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- body -->
+  <rect x="1.5" y="1.5" width="257" height="75" rx="12" fill="url(#bg)"/>
+  <rect x="1.5" y="1.5" width="257" height="75" rx="12" fill="url(#grid)"/>
+
+  <!-- glowing edge -->
+  <g filter="url(#glow)">
+    <rect x="1.5" y="1.5" width="257" height="75" rx="12"
+          fill="none" stroke="url(#edge)" stroke-width="1.5" opacity="0.9">
+      <animate attributeName="opacity" values="0.55;1;0.55" dur="3.4s"
+               begin="1.05s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- travelling light sweep -->
+  <g clip-path="url(#clip)">
+    <rect x="-260" y="0" width="260" height="78" fill="url(#sweep)">
+      <animate attributeName="x" from="-260" to="260" dur="4.2s"
+               begin="1.05s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- corner brackets -->
+  <g stroke="#5865F2" stroke-width="1.6" fill="none" stroke-linecap="round" opacity="0.95">
+    <path d="M10 20V13a3 3 0 0 1 3-3h7"/>
+    <path d="M250 20V13a3 3 0 0 0-3-3h-7"/>
+    <path d="M10 58v7a3 3 0 0 0 3 3h7"/>
+    <path d="M250 58v7a3 3 0 0 1-3 3h-7"/>
+  </g>
+
+  <!-- icon -->
+  <g transform="translate(24 27.0)">
+    <g filter="url(#soft)" opacity="0.75">
+      <path fill="#5865F2" d="M20.317 4.3698a19.7913 19.7913 0 00-4.8851-1.5152.0741.0741 0 00-.0785.0371c-.211.3753-.4447.8648-.6083 1.2495-1.8447-.2762-3.68-.2762-5.4868 0-.1636-.3933-.4058-.8742-.6177-1.2495a.077.077 0 00-.0785-.037 19.7363 19.7363 0 00-4.8852 1.515.0699.0699 0 00-.0321.0277C.5334 9.0458-.319 13.5799.0992 18.0578a.0824.0824 0 00.0312.0561c2.0528 1.5076 4.0413 2.4228 5.9929 3.0294a.0777.0777 0 00.0842-.0276c.4616-.6304.8731-1.2952 1.226-1.9942a.076.076 0 00-.0416-.1057c-.6528-.2476-1.2743-.5495-1.8722-.8923a.077.077 0 01-.0076-.1277c.1258-.0943.2517-.1923.3718-.2914a.0743.0743 0 01.0776-.0105c3.9278 1.7933 8.18 1.7933 12.0614 0a.0739.0739 0 01.0785.0095c.1202.099.246.1981.3728.2924a.077.077 0 01-.0066.1276 12.2986 12.2986 0 01-1.873.8914.0766.0766 0 00-.0407.1067c.3604.698.7719 1.3628 1.225 1.9932a.076.076 0 00.0842.0286c1.961-.6067 3.9495-1.5219 6.0023-3.0294a.077.077 0 00.0313-.0552c.5004-5.177-.8382-9.6739-3.5485-13.6604a.061.061 0 00-.0312-.0286zM8.02 15.3312c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9555-2.4189 2.157-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.9555 2.4189-2.1569 2.4189zm7.9748 0c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9554-2.4189 2.1569-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.946 2.4189-2.1568 2.4189Z" />
+    </g>
+    <path fill="#5865F2" d="M20.317 4.3698a19.7913 19.7913 0 00-4.8851-1.5152.0741.0741 0 00-.0785.0371c-.211.3753-.4447.8648-.6083 1.2495-1.8447-.2762-3.68-.2762-5.4868 0-.1636-.3933-.4058-.8742-.6177-1.2495a.077.077 0 00-.0785-.037 19.7363 19.7363 0 00-4.8852 1.515.0699.0699 0 00-.0321.0277C.5334 9.0458-.319 13.5799.0992 18.0578a.0824.0824 0 00.0312.0561c2.0528 1.5076 4.0413 2.4228 5.9929 3.0294a.0777.0777 0 00.0842-.0276c.4616-.6304.8731-1.2952 1.226-1.9942a.076.076 0 00-.0416-.1057c-.6528-.2476-1.2743-.5495-1.8722-.8923a.077.077 0 01-.0076-.1277c.1258-.0943.2517-.1923.3718-.2914a.0743.0743 0 01.0776-.0105c3.9278 1.7933 8.18 1.7933 12.0614 0a.0739.0739 0 01.0785.0095c.1202.099.246.1981.3728.2924a.077.077 0 01-.0066.1276 12.2986 12.2986 0 01-1.873.8914.0766.0766 0 00-.0407.1067c.3604.698.7719 1.3628 1.225 1.9932a.076.076 0 00.0842.0286c1.961-.6067 3.9495-1.5219 6.0023-3.0294a.077.077 0 00.0313-.0552c.5004-5.177-.8382-9.6739-3.5485-13.6604a.061.061 0 00-.0312-.0286zM8.02 15.3312c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9555-2.4189 2.157-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.9555 2.4189-2.1569 2.4189zm7.9748 0c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9554-2.4189 2.1569-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.946 2.4189-2.1568 2.4189Z" />
+  </g>
+
+  <!-- label -->
+  <text x="66" y="35.0" font-family="'Fira Code','JetBrains Mono',ui-monospace,monospace"
+        font-size="14.5" font-weight="700" letter-spacing="2.4" fill="#5865F2">DISCORD</text>
+
+  <!-- status line -->
+  <g>
+    <circle cx="70" cy="52.0" r="2.6" fill="#00d2ff">
+      <animate attributeName="opacity" values="1;0.15;1" dur="1.8s"
+               begin="1.05s" repeatCount="indefinite"/>
+    </circle>
+    <text x="79" y="56.0" font-family="'Fira Code',ui-monospace,monospace"
+          font-size="9.5" letter-spacing="1.6" fill="#2a3b7d">CONNECTED</text>
+  </g>
+
+  <!-- arrow -->
+  <g stroke="#00d2ff" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M226 34.0 l5 5 -5 5">
+      <animate attributeName="opacity" values="0.35;1;0.35" dur="2.2s"
+               begin="1.05s" repeatCount="indefinite"/>
+    </path>
+    <path d="M232 34.0 l5 5 -5 5" opacity="0.4">
+      <animate attributeName="opacity" values="0.1;0.6;0.1" dur="2.2s"
+               begin="1.3s" repeatCount="indefinite"/>
+    </path>
+  </g>
+</svg>
