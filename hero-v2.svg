@@ -19,8 +19,8 @@
   }
   .clip1 rect { animation: type1 8s infinite; }
   .clip2 rect { animation: type2 8s infinite; }
-  @keyframes type1 { 0%{width:0} 5%{width:0} 17%{width:360px} 41%{width:360px} 50%{width:0} 100%{width:0} }
-  @keyframes type2 { 0%{width:0} 50%{width:0} 54%{width:0} 66%{width:250px} 90%{width:250px} 100%{width:0} }
+  @keyframes type1 { 0%{width:0} 5%{width:0} 17%{width:400px} 41%{width:400px} 50%{width:0} 100%{width:0} }
+  @keyframes type2 { 0%{width:0} 50%{width:0} 54%{width:0} 66%{width:280px} 90%{width:280px} 100%{width:0} }
 </style>
 
 <radialGradient id="bgGrad3" cx="50%" cy="20%" r="90%">
@@ -74,8 +74,8 @@
 
 <rect class="glowbar" x="380" y="164" width="140" height="2.5" fill="#ffb347" filter="url(#glow3)"/>
 
-<clipPath id="clip1" class="clip1"><rect x="276" y="215" width="0" height="30"/></clipPath>
-<clipPath id="clip2" class="clip2"><rect x="332" y="215" width="0" height="30"/></clipPath>
+<clipPath id="clip1" class="clip1"><rect x="250" y="215" width="0" height="30"/></clipPath>
+<clipPath id="clip2" class="clip2"><rect x="310" y="215" width="0" height="30"/></clipPath>
 
 <text x="450" y="235" text-anchor="middle" class="ach" clip-path="url(#clip1)">MUHAMMADIYAH UNIVERSITY OF CIREBON</text>
 <text x="450" y="235" text-anchor="middle" class="ach" clip-path="url(#clip2)">INFORMATICS ENGINEERING</text>

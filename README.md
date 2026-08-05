@@ -1,5 +1,5 @@
 <div align="center">
-<img width="100%" src="https://raw.githubusercontent.com/Antares023/Antares023/main/hero.svg" />
+<img width="100%" src="https://raw.githubusercontent.com/Antares023/Antares023/main/hero-v2.svg" />
 <br/>
 </div>
 
